@@ -1,0 +1,199 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: rgb(92, 92, 92);
+	color: white;
+}
+
+.logo {
+	font-family: 'Fugaz One', cursive;
+	font-size: 25px;
+	color: white;
+	/* background-color: rgb(173, 149, 82); */
+}
+.title {
+	font-family: 'Fugaz One', cursive;
+}
+
+li {
+	margin-left: 3%;
+}
+
+td, th {
+	padding: 10px;
+}
+th {
+	background-color: rgb(141, 120, 61)
+}
+
+table {
+	margin-top: 15px;
+	width: 100%;
+}
+table, tr, td, th {
+	border: 1px solid white;
+}
+
+.navbar {
+	background-color: white;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.large-div {
+	width: 80%;
+	padding: 0px;
+}
+
+.welcome, .welcome1 {
+	background-color: rgb(173, 149, 82);
+	padding: 20px;
+	margin: 18px auto 10px auto;
+}
+
+.welcome1 {
+	background-image: url("../../static/test_app/welcome-img.jpg");
+	background-size: cover;
+}
+
+.main{
+	color: rgb(92, 92, 92);
+}
+
+.message {
+	color: rgb(162, 202, 212);
+	text-align: left;
+	font-weight: bold;
+	font-style: italic;
+	margin: 0px;
+	padding: 3px;
+}
+
+.navbar .navbar-nav .nav-link, .navbar .nav-link, .navbar .navbar-brand {
+	color: rgb(173, 149, 82);
+}
+.navbar .navbar-nav .nav-link:active, .navbar .nav-link:active {
+	color: rgb(173, 149, 82);
+}
+.navbar .navbar-nav .nav-link:visited, .navbar .nav-link:visited {
+	color: rgb(173, 149, 82);
+}
+.navbar .navbar-nav .nav-link:hover, .navbar .nav-link:hover {
+	color: rgb(92, 92, 92);
+}
+
+:any-link, .dark-text, .navbar .navbar-nav .nav-link {
+	color: rgb(173, 149, 82);
+}
+
+a:hover {
+	color: rgb(92, 92, 92);
+}
+
+.light-link {
+	color: white;
+}
+
+/* SIGN IN PAGE */
+
+.sign-in {
+	background-color: rgb(173, 149, 82);
+	padding: 20px;
+	margin: 20px 0px 0px 10.85%;
+}
+.dark-link {
+	color: rgb(55, 126, 131);
+}
+
+/* EDIT PAGE */
+
+.edit1 {
+	background-color: rgb(173, 149, 82);
+	margin-left: 11%;
+	margin-right: 1%;
+	padding: 20px;
+
+}
+
+.edit2 {
+	background-color: rgb(173, 149, 82);
+	margin-right: 11%;
+	padding: 20px;
+}
+
+.add-margin-top {
+	margin-top: 20px;
+}
+
+.comment-container {
+	padding: 20px;
+	margin-right: 11%;
+	text-align: right;
+	width: 80%;
+}
+
+.profile-message {
+	background-color: white;
+	padding: 20px;
+	color: rgb(173, 149, 82);
+}
+.message-author {
+	margin-bottom: 3px;
+}
+
+.post_message {
+	width: 100%;
+	height: 100px;
+	margin-bottom: 10px;
+}
+
+.post_comment {
+	width: 80%;
+	height: 71px;
+	margin-bottom: 10px;
+}
+
+.comment-container {
+	background-color: rgb(207, 201, 181);
+}
+.comment-right {
+	margin-bottom: 20px;
+}
+.right-text {
+	text-align: right;
+	margin-right: 20%;
+}
+
+textarea {
+	padding: 15px;
+}
+
+.index-margin {
+	margin: 10px;
+}
+
+.add-margin-left {
+	margin-left: 20px;
+}
+
+.add-margin-top {
+	margin-top: 20px;
+}
+
+.user-details {
+	margin: 0px;
+}
+
+.center {
+	margin: auto;
+	width: 83.5%;
+}
+
+@media (max-width:767px) { 
+	.col-sm {
+		width: 100%;
+	}
+}
