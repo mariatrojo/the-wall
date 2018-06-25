@@ -55,7 +55,7 @@ table, tr, td, th {
 }
 
 .welcome1 {
-	background-image: url("../../static/test_app/welcome-img.jpg");
+	background-image: url("../../static/wall/welcome-img.jpg");
 	background-size: cover;
 }
 
