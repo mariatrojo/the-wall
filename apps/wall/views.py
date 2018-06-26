@@ -1,7 +1,7 @@
 from django.shortcuts import render, HttpResponse, redirect
 from django.core.urlresolvers import reverse
 from django.contrib import messages
-# from models import User
+from .models import User
 
 def index(request):
 	return render(request, "wall/index.html")
