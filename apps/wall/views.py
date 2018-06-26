@@ -84,7 +84,6 @@ def profile(request, user_id):
 		authors = User.objects.all()
 		user_messages = Message.objects.order_by('-created_at')
 		comments = Comment.objects.all()
-		print comments
 		context = { 
 			"user": user, 
 			"authors": authors, 
