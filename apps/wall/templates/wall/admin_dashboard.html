@@ -68,7 +68,12 @@
 						{% endif %}
 					</td>
 					<td>
-						<a class="light-link" href="../users/edit/{{ user.id }}">edit</a> | <a class="light-link" href="../users/{{ user.id }}/destroy" onclick="return confirm('Are you sure?')">remove</a>
+						<a class="light-link" href="../users/edit/{{ user.id }}">edit</a> |
+						{% if user.id == 1 %}
+							<a class="light-link" href="" onclick="return confirm('Sorry, you cannot remove this user')">remove</a>
+						{% else %}
+							<a class="light-link" href="../users/{{ user.id }}/destroy" onclick="return confirm('Are you sure?')">remove</a>
+						{% endif %}
 					</td>
 				</tr>
 			</tbody>
